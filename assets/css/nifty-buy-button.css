@@ -1,0 +1,145 @@
+i.mce-i-nbb-blurb-mce-icon {
+    background: url('../images/nbb-logo.png');
+}
+#nbb-link-backdrop {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    z-index: 9000;
+}
+#nbb-link-wrap {
+    height: 335px !important;
+    margin-top: -178px !important;
+}
+#nbb-link-wrap {
+    display: none;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+    box-shadow: 0 3px 6px rgba( 0, 0, 0, 0.3 );
+    width: 500px;
+    overflow: hidden;
+    margin-left: -250px;
+    margin-top: -125px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 9002;
+    -webkit-transition: height 0.2s, margin-top 0.2s;
+    transition: height 0.2s, margin-top 0.2s;
+}
+#nbb-link-wrap {
+    height: 500px;
+    margin-top: -250px;
+}
+#niftycart-form {
+    position: relative;
+    height: 100%;
+}
+#nbb-modal-title {
+    background: #fcfcfc;
+    border-bottom: 1px solid #ddd;
+    height: 36px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 0;
+    padding: 0 36px 0 16px;
+}
+#niftycart-upsert-close {
+    color: #666;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#niftycart-upsert-close:before {
+    font: normal 20px/36px dashicons;
+    vertical-align: top;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 36px;
+    height: 36px;
+    content: "\f158";
+}
+
+#nbb-link-wrap #link-selector {
+    -webkit-overflow-scrolling: touch;
+    padding: 0 16px;
+    position: absolute;
+    top: 37px;
+    left: 0;
+    right: 0;
+    bottom: 44px;
+}
+#niftycart-form #link-options {
+    padding: 8px 0 12px;
+}
+
+#niftycart-form #link-options label span {
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+    padding-right: 5px;
+    max-width: 24%;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+#niftycart-form label select {
+    margin-top: 5px;
+    width: 330px;
+}
+#niftycart-form #link-options label p.description {
+    margin-left: 120px;
+    cursor: help;
+}
+#niftycart-form .submitbox {
+    padding: 8px 16px;
+    background: #fcfcfc;
+    border-top: 1px solid #ddd;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.niftycart-upsert-cancel {
+    line-height: 25px;
+    float: left;
+}
+#niftycart-upsert-update {
+    line-height: 23px;
+    float: right;
+}
+#niftycart-upsert-submit {
+    float: right;
+}
+
+#get-shortcode {text-align:center;margin: 100px 0 0 0;display:none;}
+#get-shortcode span {font-size: 17px}
+#regenerate-shortcode {font-size: 15px}
+.wpbody-content #nbb-link-wrap {}
+
+@media screen and (max-height: 520px) {
+    #nbb-link-wrap {
+        -webkit-transition: none;
+        transition: none;
+        height: 335px;
+        margin-top: 0 !important;
+        top: 10px;
+        bottom: 10px;
+    }
+}
+
